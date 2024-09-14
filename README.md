@@ -1,6 +1,80 @@
-# Enviroment
+<a name="readme-top"></a>
 
-INSTALAR entorno virtual (slo se instala una vez por ordenador los entornos virtuales se fijan con otro comando)
+<div align="center">
+  <h1>ENVIROMENT</h1>
+  <h2>Entornos Virtuales Python: </h2><h3>Una Guía Práctica para Desarrolladores</h3>
+</div>
+<br>
+
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)<br>
+
+Este repositorio en una referencia completa para desarrolladores Python que desean comprender y dominar la creación y gestión de entornos virtuales. A través de ejemplos prácticos y explicaciones detalladas, exploraremos los conceptos fundamentales de los entornos virtuales, su importancia en el desarrollo de proyectos Python y las mejores prácticas para su uso.
+
+El desarrollo de aplicaciones en lenguaje de programación Python, usualmente hacen uso de diversas versiones de paquetes y modulos que requieren una espesificidad de versión en su libreria. Esto significa que se debe aislar estos requerimientos sin crear conflicto al trabajar en diferentes aplicaciones haciendo uso de los entornos virtuales (venv).
+
+<!-- <ul></ul> -->
+
+<details>
+  <summary><b>📋 Contenido</b></summary>
+    <ol>
+      <li>
+        <a href="#" >Introducción</a>
+          <ul style="list-style: none;">
+            <li>¿Qué es un entorno virtual y por qué es importante?</li>
+            <li>Beneficios de utilizar entornos virtuales (aislamiento de dependencias, reproducibilidad, colaboración).</li>
+            <li>Comparación de herramientas para crear entornos virtuales (venv, virtualenv, conda).</li>
+          </ul> 
+      </li>
+      <li>
+        <a href="#" >Creación de un Entorno Virtual: </a>
+          <ul>
+            <li>Pasos detallados para crear un nuevo entorno con venv.</li>
+            <li>Activación y desactivación del entorno.</li>
+            <li>Instalación de paquetes con pip.</li>
+          </ul>
+      </li>
+      <li>
+        <a href="#" >Gestión de Paquetes:</a>
+          <ul>
+            <li>Creación de un archivo requirements.txt.</li>
+            <li>Instalación de paquetes desde requirements.txt.</li>
+            <li>Actualización y eliminación de paquetes.</li>
+          </ul>        
+      </li>
+      <li>
+        <a href="#" >Mejores Prácticas:</a>
+          <ul>
+            <li>Estructura de directorios recomendada.</li>
+            <li>Uso de .gitignore para excluir archivos innecesarios.</li>
+            <li>Automatización de la creación de entornos con scripts.</li>
+          </ul>        
+      </li>
+      <li>
+        <a href="#" >Ejemplos Prácticos:</a>
+          <ul>
+            <li>Creación de entornos para diferentes proyectos (Django, Flask, Machine Learning).</li>
+            <li>Resolución de problemas comunes.</li>
+          </ul>
+      </li>
+      <li>
+        <a href="#" >Herramientas Adicionales:</a>
+          <ul>
+            <li>Integración con IDEs (Visual Studio Code, PyCharm).</li>
+            <li>Uso de Docker para contenerizar entornos.</li>
+          </ul>
+      </li>
+    </ol>
+</details>
+
+Tecnologías y Herramientas:
+
+    Python
+    venv
+    virtualenv
+    pip
+    Editores de código (Visual Studio Code, PyCharm, etc.)
+
+    
 
 ~~~sh
 sudo apt installl -y python3-venv
@@ -190,7 +264,7 @@ Others
 
 
 ~~~
-
+IMPRIMIR HTML desde el servidor FastAPI
 
 
 ~~~sh
