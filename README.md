@@ -13,11 +13,22 @@ python, virtualenv, venv, environment, dependencies, development, best practices
 </div>
 <br>
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)<br>
+<!-- [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)<br> -->
+
+<a title="python language icon" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg" alt="Made with Python"></a>   
+
+
 
 El desarrollo de aplicaciones en lenguaje de programación Python, usualmente hace uso de diversas versiones de paquetes y módulos que requieren una especificidad de versión en su librería. Esto crea la necesidad de aislar estos requerimientos sin crear conflicto al trabajar en diferentes proyectos, esto haciendo uso de los entornos virtuales (venv).
 
 Este repositorio es una referencia para desarrolladores que desean comprender y dominar la creación y gestión de entornos virtuales. A través de ejemplos prácticos y explicaciones detalladas, exploraremos los conceptos fundamentales de los entornos virtuales, su importancia en el desarrollo de proyectos Python y las mejores prácticas para su uso.
+
+
+## Introducción
+
+* **[¿Qué es un entorno virtual?](#what-is)**
+* **[¿Por qué utilizar entornos virtuales?](#why-use)**
+
 
 <details>
   <summary><b>📋 Contenido</b></summary>
@@ -171,7 +182,7 @@ En **resumen**, los entornos virtuales son una herramienta esencial para cualqui
     ~~~sh
     python -m venv mi_entorno_virtual
     ~~~
-    Reemplaza el nombre `mi_entorno_virtual`, con el nombre que desees para tu entorno.
+    *Reemplaza el nombre* `mi_entorno_virtual`*, con el nombre que desees para tu entorno.*
 
 <a name="activate-deactivate"></a>
 
@@ -302,58 +313,6 @@ mi_entorno_virtual/
 ~~~
 
 ##### ii. Uso de .gitignore para excluir archivos innecesarios.
-
-
-
-
-<!-- Consideraciones adicionales para la documentación:
-
-- Analogía: Puedes utilizar una analogía para explicar el concepto de forma más intuitiva. Por ejemplo, puedes comparar un entorno virtual con una caja de herramientas donde cada herramienta (paquete) tiene una versión específica.
-
-- Visualización: Un diagrama simple que muestre la estructura de un entorno virtual puede ser útil para los lectores.
-
-- Ejemplos: Incluye ejemplos de comandos para crear, activar y desactivar entornos virtuales.
-
-- Comparación con otras herramientas: Puedes comparar los entornos virtuales con otras herramientas de gestión de paquetes como conda.
-
-- Enfoque en la contenerización: Dado que mencionas la contenerización, puedes hacer una breve conexión entre entornos virtuales y contenedores, destacando cómo los entornos virtuales son un primer paso hacia la contenerización.1
-
-Ejemplo de diagrama:
-
-[Diagrama que muestra un directorio de proyecto con un entorno virtual y sus paquetes]
-
-Ejemplo de código:
-Bash
-
-# Crear un nuevo entorno virtual
-python -m venv my_env
-
-# Activar el entorno virtual
-source my_env/bin/activate
-
-# Instalar un paquete
-pip install numpy
-
-# Crear un requirements.txt
-pip freeze > requirements.txt
-
-Usa el código con precaución.
-
-Al incluir esta información detallada y bien estructurada, estarás proporcionando a tus lectores una base sólida para comprender y utilizar entornos virtuales en sus proyectos Python.
-
-
-## Elegir entre venv, virtualenv y conda depende de sus necesidades específicas. Si estás trabajando en proyectos simples de Python y quieres seguir con las herramientas estándar de la biblioteca, venv es suficiente. Para una compatibilidad más amplia y funciones adicionales, virtualenv es su aliado. Mientras tanto, conda es ideal para proyectos complejos, especialmente en ciencia de datos, donde las dependencias se extienden más allá del ecosistema de Python.
-
-Recomendaciones adicionales:
-
-- Ejemplos concretos: Incluye ejemplos de cómo los entornos virtuales resuelven problemas comunes en el desarrollo de Python.
-
-- Comparaciones: Compara el uso de entornos virtuales con otros métodos de gestión de paquetes (por ejemplo, instalación global).
-
-- Casos de uso: Presenta casos de uso reales para ilustrar los beneficios de los entornos virtuales.
-
-
- -->
 
 
 
@@ -750,3 +709,16 @@ INFO:     Finished server process [22451]
 INFO:     Stopping reloader process [20262]
 
 ~~~
+
+
+<div align="center" max-width="70vw" >
+
+<img src="https://drive.google.com/uc?export=view&id=1wBpfw_H6qm9VIMz1Uu50-LUbpypqTMO4">
+
+</div>
+
+<div align="center" max-width="70vw" >
+
+[@erwindevdesign](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
+
+</div>
