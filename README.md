@@ -112,9 +112,7 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
 
 #### Introducción
 
-<a name="what-is"></a>
-
-<div align="center">
+<div id="what-is" style="align=center">
   <p style="font-weight: bolder;">¿Qué es un entorno virtual y su importancia en el desarrollo?</p>
 </div>
 <br>
