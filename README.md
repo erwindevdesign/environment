@@ -8,8 +8,8 @@ python, virtualenv, venv, environment, dependencies, development, best practices
 
  -->
 <div align="center">
-  <h1>ENVIROMENT</h1>
-  <h2>Entornos Virtuales Python: </h2><h3>Una Guía Práctica para Desarrolladores</h3>
+  <h1>VIRTUAL ENVIROMENT</h1>
+  <h3>Una guía práctica para desarrolladores.</h3>
 </div>
 <br>
 
@@ -17,25 +17,25 @@ python, virtualenv, venv, environment, dependencies, development, best practices
 
 <a title="python language icon" href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg" alt="Made with Python"></a>   
 
+<a name="introduction"></a>
 
+<div align="center">
+  <h3 style="font-weight: bolder;">Ⅰ</h3>
+  <h4 style="font-weight: bolder;">Introducción</h4>
+</div>
 
-El desarrollo de aplicaciones en lenguaje de programación Python, usualmente hace uso de diversas versiones de paquetes y módulos que requieren una especificidad de versión en su librería. Esto crea la necesidad de aislar estos requerimientos sin crear conflicto al trabajar en diferentes proyectos, esto haciendo uso de los entornos virtuales (venv).
+El desarrollo de aplicaciones en lenguaje de programación Python, usualmente hace uso de diversas versiones de paquetes y módulos que requieren una especificidad de versión en su librería. Esto crea la necesidad de aislar estos requerimientos sin crear conflicto al trabajar en diferentes proyectos haciendo uso de entornos virtuales (venv).
 
 Este repositorio es una referencia para desarrolladores que desean comprender y dominar la creación y gestión de entornos virtuales. A través de ejemplos prácticos y explicaciones detalladas, exploraremos los conceptos fundamentales de los entornos virtuales, su importancia en el desarrollo de proyectos Python y las mejores prácticas para su uso.
 
-
-## Introducción
-
-* **[¿Qué es un entorno virtual?](#what-is)**
-* **[¿Por qué utilizar entornos virtuales?](#why-use)**
-
-
 <details>
-  <summary><b>📋 Contenido</b></summary>
-    <ol>
-      <li>
-        <a href="#introduction" >Introducción</a>
-          <ol>
+  <summary><b>Contenido 📋</b></summary>
+    <ul style=" list-style-type:none">
+      <li >
+        <a href="#introduction" >
+        Ⅰ. Introducción
+        </a>
+          <ol style=" list-style-type:none">
             <li>
               <a href="#what-is" >
                 ¿Qué es un entorno virtual y su importancia en el desarrollo?
@@ -48,14 +48,14 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
             </li>
           </ol>
       </li>
-      <li>
+      <li > 
         <a href="#create-virtual-environment">
-          Creación de un Entorno Virtual: 
+          Ⅱ. Creación de Entorno Virtual
         </a>
-          <ol>
+          <ol style=" list-style-type:none">
             <li>
               <a href="#new-virtual-environment" >
-                Crear un nuevo entorno con venv.
+                Crea un nuevo entorno con venv.
                 </a>
             </li>
             <li>
@@ -76,57 +76,76 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
           </ol>
       </li>
       <li>
-        <a href="#package-management" >Gestión de Paquetes:</a>
-          <ol>
-            <li>Creación de un archivo requirements.txt.</li>
-            <li>Instalación de paquetes desde requirements.txt.</li>
-            <li>Actualización y eliminación de paquetes.</li>
+        <a href="#package-management" >
+          Ⅲ. Gestión de Paquetes
+        </a>
+          <ol style=" list-style-type:none">
+            <li>
+              <a href="#new-file" >
+                Creación de un archivo requirements.txt.
+              </a>
+            </li>
+            <li>
+              <a href="#packages-from-file" >
+                Instalación de paquetes desde requirements.txt.
+              </a>
+            </li>
+            <li>
+              <a href="#updating-removing">Actualización y eliminación de paquetes.
+            </li>
           </ol>        
       </li>
       <li>
-        <a href="#best-practices" >Mejores prácticas:</a>
-          <ol>
+        <a href="#best-practices">
+          Ⅳ. Mejores prácticas
+        </a>
+          <ol style=" list-style-type:none" >
             <li>Estructura de directorios recomendada.</li>
             <li>Uso de .gitignore para excluir archivos innecesarios.</li>
             <li>Automatización de la creación de entornos con scripts.</li>
           </ol>        
       </li>
       <li>
-        <a href="#" >Ejemplos Prácticos:</a>
-          <ol>
+        <a href="#" >
+          Ⅴ. Ejemplos Prácticos
+        </a>
+          <ol style=" list-style-type:none">
             <li>Creación de entornos para diferentes proyectos (Django, Flask, Machine Learning).</li>
             <li>Resolución de problemas comunes.</li>
           </ol>
       </li>
       <li>
-        <a href="#" >Herramientas Adicionales:</a>
-          <ol>
+        <a href="#" >
+          Ⅵ. Herramientas Adicionales
+        </a>
+          <ol style=" list-style-type:none">
             <li>Integración con IDEs (Visual Studio Code, PyCharm).</li>
             <li>Uso de Docker para la contenerización de entornos.</li>
           </ol>
       </li>
-    </ol>
+    </ul>
 </details>
 
-<a name="introduction"></a>
 
-#### Introducción
-
-<div id="what-is" style="align=center">
-  <p style="font-weight: bolder;">¿Qué es un entorno virtual y su importancia en el desarrollo?</p>
-</div>
 <br>
-
-Un entorno virtual en Python es un directorio aislado que contiene una instalación de Python y todos los paquetes instalados dentro de él. Este aislamiento garantiza que las dependencias de un proyecto particular no interfieran con otros proyectos, evitando conflictos de versiones y asegurando un entorno de desarrollo consistente y reproducible.
-
-<a name="why-use"></a>
-
+<a name="what-is"></a>
 <div align="center">
-  <p style="font-weight: bolder;">¿Por qué utilizar entornos virtuales?</p>
+  <p style="font-weight: bolder;">
+    ¿Qué es un entorno virtual y su importancia en el desarrollo?
+  </p>
 </div>
-<br>
 
- **Aislamiento de proyectos** 
+Un entorno virtual en Python es un directorio aislado que contiene una instalación de Python y todos los paquetes instalados dentro de él. Este aislamiento garantiza que las dependencias de un proyecto en particular no interfieran con otros proyectos, evitando conflictos de versiones y asegurando un entorno de desarrollo consistente y reproducible.
+
+<br>
+<a name="why-use"></a>
+<div align="center">
+  <p style="font-weight: bolder;">
+    ¿Por qué utilizar entornos virtuales?
+  </p>
+</div>
+
+**Aislamiento de proyectos** 
     
 - **Evita conflictos:** Cada proyecto puede tener sus propias versiones de paquetes, evitando colisiones entre diferentes versiones de una misma librería.
     
@@ -166,11 +185,14 @@ En **resumen**, los entornos virtuales son una herramienta esencial para cualqui
 
 <a name="create-virtual-environment"></a>
 
-#### Creación de Entorno Virtual
+<div align="center">
+  <h3 style="font-weight: bolder;">Ⅱ</h3>
+  <h4 style="font-weight: bolder;">Creación de Entorno Virtual</h4>
+</div>
 
 <a name="new-virtual-environment"></a>
 
-##### ⅰ. Crea un nuevo entorno con venv.
+#### Crea un nuevo entorno con venv.
 
 1. Abre tu terminal o línea de comandos.
 
@@ -184,31 +206,32 @@ En **resumen**, los entornos virtuales son una herramienta esencial para cualqui
 
 <a name="activate-deactivate"></a>
 
-##### ⅱ. Activación y desactivación del entorno.
+#### Activación y desactivación del entorno.
 
-1. Activación
+Los paquetes y dependencias que instales al activar el entorno, se resguardaran en el directorio asignado a el, las dependencias y paquetes que se instales cuando se encuentre desactivado se instalaran de forma global en el equipo. Una vez activado, verás el nombre del entorno, entre paréntesis, al principio de la línea de comandos.
 
-    - Windows:
-    ~~~
-    mi_entorno_virtual\Scripts\activate
-    ~~~
-    - Linux/macOS:
-    ~~~
-    source mi_entorno_virtual/bin/activate
-    ~~~
-    - *Una vez activado, verás el nombre del entorno, entre paréntesis, al principio de la línea de comandos.*
+**Activación**
+    
+Windows:
+~~~
+mi_entorno_virtual\Scripts\activate
+~~~
+Linux / macOS:
+~~~
+source mi_entorno_virtual/bin/activate
+~~~
 
-2. Desactivación
-   
-    ~~~
-    deactivate
-    ~~~
-  
+**Desactivación**
+
+~~~
+deactivate
+~~~
+
 <a name="install-packages"></a>
 
-#### ⅲ. Instalación de paquetes con pip.
+#### Instalación de paquetes con pip.
 
-Instala las dependencias requeridas para realizar tu proyecto.
+Instala las dependencias requeridas para el desarrollo de tu proyecto.
 
 ~~~sh
 pip install requests
@@ -216,7 +239,7 @@ pip install requests
 
 <a name="example-01"></a>
 
-##### ⅳ. Ejemplo Completo
+#### Ejemplo Completo*
 
 ~~~sh
 # Posicionate en el directorio de tu proyecto
@@ -237,26 +260,36 @@ deactivate
 
 <a name="package-management"></a>
 
-#### Gestión de Paquetes
+<div align="center">
+  <h3 style="font-weight: bolder;">Ⅲ</h3>
+  <h4 style="font-weight: bolder;">Gestión de Paquetes</h4>
+</div>
+<!-- 
+Para la gestión de paquetes existen dos escenarios, el primero donde el desarrollo del proyecto es propio y requerimos respaldar las versiones exactas con las que funciona una aplicación, el segundo donde colaboramos en un proyecto ya existente del cual requerimos instalar las versiones exactas que refiere el creador para hacer uso de su codigo.
+En la colaboración de código, es indispensable proporcionar la versión exacta de las dependencias que requiere nuestro software para su funcionamiento. Para ello, respaldaremos y/o instalaremos dichas dependencias en un archivo `requirements.txt`, el cual detallara las versiones adecuadas para el funsionamiento de la aplicación.
+ -->
 
-Para la colaboración de código, es indispensable proporcionar a la comunidad la versión exacta de las dependencias que requiere nuestro software para su funcionamiento. Para ello, crearemos y respaldaremos dichas dependencias en un archivo **requirements.txt**.
+La gestión de paquetes en proyectos de desarrollo es crucial para garantizar la reproducibilidad y colaboración. Existen dos escenarios principales:
 
-##### ⅰ. Creación de un archivo requirements.txt.
+* Desarrollo propio: Al crear un proyecto, es fundamental registrar las versiones exactas de los paquetes utilizados para asegurar que la aplicación funcione correctamente en el futuro y en diferentes entornos.
+* Colaboración en proyectos existentes: Cuando nos unimos a un proyecto ya en desarrollo, es imprescindible instalar las mismas versiones de los paquetes que el equipo original para evitar conflictos y asegurar la compatibilidad del código.
+
+Para gestionar las dependencias de un proyecto, se recomienda utilizar un archivo `requirements.txt`. Este archivo enumera de forma precisa los paquetes y sus versiones requeridos para ejecutar la aplicación. Al compartir este archivo, facilitamos la instalación del entorno de desarrollo a otros colaboradores y garantizamos que todos trabajen con la misma configuración.
+
+
+
+<a name="new-file"></a>
+Crea un archivo requirements.txt.
 ~~~
 touch requirements.txt
 ~~~
-~~~
-touch requirements.txt
-~~~
-
-##### ⅱ. Instalación de paquetes desde requirements.txt.
-
+<a name="packages-from-file"></a>
+Instalación de paquetes desde requirements.txt.
 ~~~sh
 pip install -r requirements.txt
 ~~~
-
-
-##### ⅲ. Actualización y eliminación de paquetes.
+<a name="updating-removing"></a>
+Actualización y eliminación de paquetes.
 
 1. Actualización de Paquetes
 
