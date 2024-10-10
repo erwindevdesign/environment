@@ -1,12 +1,9 @@
 <a name="readme-top"></a>
 <!-- 
-
 Etiquetas Sugeridas:
-
 python, virtualenv, venv, environment, dependencies, development, best practices, tutorial
+-->
 
-
- -->
 <div align="center">
   <h1>VIRTUAL ENVIROMENT</h1>
   <h3>Una guía práctica para desarrolladores.</h3>
@@ -77,7 +74,7 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
       </li>
       <li>
         <a href="#package-management" >
-          Ⅲ. Gestión de Paquetes
+          Ⅲ. Gestión de Paquetes.
         </a>
           <ol style=" list-style-type:none">
             <li>
@@ -91,8 +88,14 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
               </a>
             </li>
             <li>
-              <a href="#updating-removing">Actualización y eliminación de paquetes.
+              <a href="#updating-removing">Actualización de paquetes.
             </li>
+            <li>
+              <a href="#freezes-dependencies">Congela las versiones de paquetes.
+            </li>  
+            <li>
+              <a href="#remove-dependencies">Elimina paquetes.
+            </li>            
           </ol>        
       </li>
       <li>
@@ -100,8 +103,12 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
           Ⅳ. Mejores prácticas
         </a>
           <ol style=" list-style-type:none" >
-            <li>Estructura de directorios recomendada.</li>
-            <li>Uso de .gitignore para excluir archivos innecesarios.</li>
+            <li>
+              <a href="#recommended-structure">Estructura de directorios recomendada.
+            </li> 
+            <li>
+              <a href="#gitignore-file">Uso de .gitignore para excluir archivos innecesarios.
+            </li> 
             <li>Automatización de la creación de entornos con scripts.</li>
           </ol>        
       </li>
@@ -192,36 +199,36 @@ En **resumen**, los entornos virtuales son una herramienta esencial para cualqui
 
 <a name="new-virtual-environment"></a>
 
-#### Crea un nuevo entorno con venv.
+#### ▸ Crea un nuevo entorno con venv.
 
-1. Abre tu terminal o línea de comandos.
-
-2. Navega al directorio donde deseas crear tu proyecto.
-
-3. Ejecuta el siguiente comando para crear un nuevo entorno virtual:
-    ~~~sh
-    python -m venv mi_entorno_virtual
-    ~~~
-    *Reemplaza el nombre* `mi_entorno_virtual`*, con el nombre que desees para tu entorno.*
+Dentro del directorio del proyecto, ejecuta el siguiente comando para crear un nuevo entorno virtual: 
+~~~sh
+python -m venv mi_entorno_virtual
+~~~
+*Reemplaza el nombre* `mi_entorno_virtual`*, con el nombre que desees para tu entorno.*
 
 <a name="activate-deactivate"></a>
 
-#### Activación y desactivación del entorno.
+#### ▸ Activación y desactivación del entorno.
 
-Los paquetes y dependencias que instales al activar el entorno, se resguardaran en el directorio asignado a el, las dependencias y paquetes que se instales cuando se encuentre desactivado se instalaran de forma global en el equipo. Una vez activado, verás el nombre del entorno, entre paréntesis, al principio de la línea de comandos.
-
-**Activación**
+Los paquetes y dependencias que se instalen al activar el entorno, se resguardaran en el directorio asignado a él, las dependencias y paquetes que se instalen cuando se encuentre desactivado se instalaran de forma global en el equipo. Una vez activado, verás el nombre del entorno, entre paréntesis, al principio de la línea de comandos*.
     
-Windows:
+<div align="center">
+  <h4 style="font-weight: bolder;">Activación</h4>
+</div>
+
+~ Windows: 
 ~~~
 mi_entorno_virtual\Scripts\activate
 ~~~
-Linux / macOS:
+~ Linux / macOS:
 ~~~
 source mi_entorno_virtual/bin/activate
 ~~~
 
-**Desactivación**
+<div align="center">
+  <h4 style="font-weight: bolder;">Desactivación</h4>
+</div>
 
 ~~~
 deactivate
@@ -229,17 +236,21 @@ deactivate
 
 <a name="install-packages"></a>
 
-#### Instalación de paquetes con pip.
+#### ▸ Instalación de paquetes con pip.
 
 Instala las dependencias requeridas para el desarrollo de tu proyecto.
 
+~~~sh
+pip install <nombre_del_paquete>
+~~~
+Por ejemplo, para instalar `requests` 
 ~~~sh
 pip install requests
 ~~~
 
 <a name="example-01"></a>
 
-#### Ejemplo Completo*
+#### ▸ Ejemplo completo
 
 ~~~sh
 # Posicionate en el directorio de tu proyecto
@@ -276,76 +287,149 @@ La gestión de paquetes en proyectos de desarrollo es crucial para garantizar la
 
 Para gestionar las dependencias de un proyecto, se recomienda utilizar un archivo `requirements.txt`. Este archivo enumera de forma precisa los paquetes y sus versiones requeridos para ejecutar la aplicación. Al compartir este archivo, facilitamos la instalación del entorno de desarrollo a otros colaboradores y garantizamos que todos trabajen con la misma configuración.
 
-
-
 <a name="new-file"></a>
-Crea un archivo requirements.txt.
+▸ **Creación de un archivo** `requirements.txt`**.**
 ~~~
 touch requirements.txt
 ~~~
+
 <a name="packages-from-file"></a>
-Instalación de paquetes desde requirements.txt.
+▸ **Instalación de paquetes desde** `requirements.txt`**.**
 ~~~sh
 pip install -r requirements.txt
 ~~~
+
 <a name="updating-removing"></a>
-Actualización y eliminación de paquetes.
+▸ **Actualización de paquetes.**
 
-1. Actualización de Paquetes
+Instala la nueva versión del paquete:
+~~~sh
+pip install <nombre_del_paquete>==<nueva_versión>
+~~~
+Por ejemplo, para actualizar `requests` a la versión `2.28.1`:
+~~~sh
+pip install requests==2.28.1
+~~~
 
-    Instala la nueva versión del paquete:
-    ~~~sh
-    pip install <nombre_del_paquete>==<nueva_versión>
-    ~~~
+<a name="freezes-dependencies"></a>
+▸ **Congela las dependencias dentro del archivo** `requirements.txt`**.**
 
-    Por ejemplo, para actualizar `requests` a la versión 2.28.1:
+Para actualizar el archivo `requirements.txt` con las nuevas versiones instaladas.
+~~~sh
+pip freeze > requirements.txt
+~~~
 
-    ~~~sh
-    pip install requests==2.28.1
-    ~~~
+<a name="remove-dependencies"></a>
+▸ **Eliminando paquetes.**
 
-2. Congela las dependencias.
-
-    Para actualizar el archivo `requirements.txt` con las nuevas versiones instaladas:
-
-    ~~~sh
-    pip freeze > requirements.txt
-    ~~~
-
-3. Eliminando paquetes
-
-    Desinstala el paquete.
-    ~~~sh
-    pip uninstall <nombre_del_paquete>
-    ~~~
-
-    Por ejemplo, para desinstalar `numpy`:
-    ~~~sh
-    pip uninstall numpy
-    ~~~
+Desinstala el paquete.
+~~~sh
+pip uninstall <nombre_del_paquete>
+~~~
+Por ejemplo, para desinstalar `numpy`:
+~~~sh
+pip uninstall numpy
+~~~
 
 <a name="best-practices"></a>
+<div align="center">
+  <h3 style="font-weight: bolder;">Ⅳ</h3>
+  <h4 style="font-weight: bolder;">Mejores prácticas</h4>
+</div>
 
-#### Mejores prácticas
+<a name="recommended-structure"></a>
+▸ **Estructura de directorios recomendada.**
 
-##### i. Estructura de directorios recomendada.
-
-Al crear un entorno virtual, se crea un directorio con la siguiente estructura (puede variar ligeramente según la versión de Python):
-
+Al crear un entorno virtual, se crea un directorio con la siguiente estructura:
 ~~~mk
-mi_entorno_virtual/
+env/
 ├── bin/
-│   ├── activate
+│   ├── activate.csh
+|   ├── activate.fish
+|   ├── Activate.ps1
 │   ├── python
 │   └── ...
 ├── include/
 ├── lib/
+├── lib64/
 └── pyvenv.cfg
 ~~~
+*Puede variar ligeramente según la versión de `Python`.**
 
-##### ii. Uso de .gitignore para excluir archivos innecesarios.
+<a name="gitignore-file"></a>
+▸ **Uso de `.gitignore` para excluir archivos innecesarios.**
 
+El archivo `.gitignore` es una herramienta esencial en `Git`, espesifica qué archivos o directorios deben ser ignorados al realizar un commit. Esto es crucial para mantener un repositorio limpio y eficiente, evitando que se versionen archivos temporales, configuraciones locales o cualquier otro tipo de información que no sea relevante para el proyecto.
 
+Crea un archivo `.gitignore` en la raíz de tu repositorio, para ignorar archivos específicos y evitar que sean rastreados:
+
+~~~sh
+touch .gitignore
+~~~
+
+Ejemplo del contenido de un archivo `.gitignore` básico para un proyecto en `Python`:
+
+~~~mk
+# Byte-compiled / optimized / PYC files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+$pycache.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.egg-info/
+dist/
+build/
+docs/_build/
+
+# Our own local stuff
+local.py
+*.pem
+
+# IPython notebook files
+*.ipynb
+
+# Data files
+data/
+datasets/
+
+# Virtual environment
+venv/
+env/
+
+# Logs
+logs/
+
+# IDE files
+.idea/
+.vscode/
+
+# Local configuration
+.env
+.gitconfig
+
+# Compiled assets (e.g. JavaScript, CSS)
+dist/
+build/
+
+# Database files
+db.sqlite3
+*.db
+
+# Media files
+media/
+images/
+sounds/
+videos/
+
+# Temporary files
+*.tmp
+*~
+~~~
 
 
 

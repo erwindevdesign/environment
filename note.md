@@ -215,3 +215,116 @@ ejemplo.com (pero no en Github, por ejemplo).
 [texto de referencia insensible a mayúsculas y minúsculas]: https://www.mozilla.org
 [1]: http://slashdot.org
 [enlace el texto en sí mismo]: http://www.reddit.com
+
+
+
+
+
+
+<details>
+  <summary><b>Contenido 📋</b></summary>
+    <ul style=" list-style-type:none">
+      <li >
+        <a href="#introduction" >
+        Ⅰ. Introducción
+        </a>
+          <ol style=" list-style-type:none">
+            <li>
+              <a href="#what-is" >
+                ¿Qué es un entorno virtual y su importancia en el desarrollo?
+              </a>
+            </li>
+            <li>
+              <a href="#why-use" >
+                ¿Por qué utilizar entornos virtuales?
+              </a>
+            </li>
+          </ol>
+      </li>
+      <li > 
+        <a href="#create-virtual-environment">
+          Ⅱ. Creación de Entorno Virtual
+        </a>
+          <ol style=" list-style-type:none">
+            <li>
+              <a href="#new-virtual-environment" >
+                Crea un nuevo entorno con venv.
+                </a>
+            </li>
+            <li>
+              <a href="#activate-deactivate" >
+                Activación y desactivación del entorno.
+              </a>
+            </li>
+            <li>
+              <a href="#install-packages" >
+                Instalación de paquetes con pip.
+              </a>
+            </li>
+            <li>
+              <a href="#example-01" >
+                Ejemplo completo.
+              </a>
+            </li>
+          </ol>
+      </li>
+      <li>
+        <a href="#package-management" >
+          Ⅲ. Gestión de Paquetes.
+        </a>
+          <ol style=" list-style-type:none">
+            <li>
+              <a href="#new-file" >
+                Creación de un archivo requirements.txt.
+              </a>
+            </li>
+            <li>
+              <a href="#packages-from-file" >
+                Instalación de paquetes desde requirements.txt.
+              </a>
+            </li>
+            <li>
+              <a href="#updating-removing">Actualización de paquetes.
+            </li>
+            <li>
+              <a href="#freezes-dependencies">Congela las versiones de paquetes.
+            </li>  
+            <li>
+              <a href="#remove-dependencies">Elimina paquetes.
+            </li>            
+          </ol>        
+      </li>
+      <li>
+        <a href="#best-practices">
+          Ⅳ. Mejores prácticas
+        </a>
+          <ol style=" list-style-type:none" >
+            <li>
+              <a href="#recommended-structure">Estructura de directorios recomendada.
+            </li> 
+            <li>
+              <a href="#gitignore-file">Uso de .gitignore para excluir archivos innecesarios.
+            </li> 
+            <li>Automatización de la creación de entornos con scripts.</li>
+          </ol>        
+      </li>
+      <li>
+        <a href="#" >
+          Ⅴ. Ejemplos Prácticos
+        </a>
+          <ol style=" list-style-type:none">
+            <li>Creación de entornos para diferentes proyectos (Django, Flask, Machine Learning).</li>
+            <li>Resolución de problemas comunes.</li>
+          </ol>
+      </li>
+      <li>
+        <a href="#" >
+          Ⅵ. Herramientas Adicionales
+        </a>
+          <ol style=" list-style-type:none">
+            <li>Integración con IDEs (Visual Studio Code, PyCharm).</li>
+            <li>Uso de Docker para la contenerización de entornos.</li>
+          </ol>
+      </li>
+    </ul>
+</details>
