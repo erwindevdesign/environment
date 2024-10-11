@@ -369,6 +369,8 @@ touch .gitignore
 
 Ejemplo del contenido de un archivo `.gitignore` básico para un proyecto en `Python`:
 
+revisa el archivo [.gitignore](https://github.com/erwindevdesign/pip/.gitignore).
+
 ~~~mk
 # Byte-compiled / optimized / PYC files
 __pycache__/
@@ -398,8 +400,13 @@ data/
 datasets/
 
 # Virtual environment
-venv/
+.env
+.venv
 env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # Logs
 logs/
