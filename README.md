@@ -293,6 +293,8 @@ source mi_entorno_virtual/bin/activate
 ~~~
 *Una vez activado, verás el nombre del entorno, entre paréntesis, al principio de la línea de comandos.*
 
+<br>
+
 **Validación**
 
 ~~~sh
@@ -303,6 +305,8 @@ which python
 which pip
 ~~~
 *Esto mostrará la ruta desde la cual se ejecuta* `Python` *y su gestor de paquetes por defecto* `pip`.
+
+<br>
 
 **Desactivación**
 
@@ -340,7 +344,9 @@ Para la gestión de paquetes existen dos escenarios, el primero donde el desarro
 En la colaboración de código, es indispensable proporcionar la versión exacta de las dependencias que requiere nuestro software para su funcionamiento. Para ello, respaldaremos y/o instalaremos dichas dependencias en un archivo `requirements.txt`, el cual detallara las versiones adecuadas para el funsionamiento de la aplicación.
  -->
 
-La gestión de paquetes en proyectos de desarrollo es crucial para garantizar la reproducibilidad y colaboración. Existen dos escenarios principales:
+La gestión de paquetes en proyectos de desarrollo es crucial para garantizar la reproducibilidad y colaboración. 
+
+Existen dos escenarios principales:
 
 * Desarrollo propio: Al crear un proyecto, es fundamental registrar las versiones exactas de los paquetes utilizados para asegurar que la aplicación funcione correctamente en el futuro y en diferentes entornos.
 * Colaboración en proyectos existentes: Cuando nos unimos a un proyecto ya en desarrollo, es imprescindible instalar las mismas versiones de los paquetes que el equipo original para evitar conflictos y asegurar la compatibilidad del código.
@@ -442,12 +448,13 @@ La elección del nombre para tu entorno virtual es en gran medida una cuestión 
 **Estructura de directorios recomendada.**
 
 Al crear un entorno virtual, se crea un directorio con la siguiente estructura:
+
 ~~~sh
 env/
 ├── bin/
 │   ├── activate.csh
-|   ├── activate.fish
-|   ├── Activate.ps1
+│   ├── activate.fish
+│   ├── Activate.ps1
 │   ├── python
 │   └── ...
 ├── include/
@@ -475,7 +482,7 @@ touch .gitignore
 
 \* Ejemplo del contenido de un archivo `.gitignore` básico para un proyecto en `Python`:
 
-revisa el archivo: [.gitignore](https://github.com/erwindevdesign/pip/blob/develop/.gitignore).
+:eyes: revisa el archivo: <a href="https://github.com/erwindevdesign/pip/blob/develop/.gitignore" target="_blank" rel="noopener noreferrer">.gitignore</a>
 
 <a name="scripts"></a>
 
@@ -485,7 +492,7 @@ revisa el archivo: [.gitignore](https://github.com/erwindevdesign/pip/blob/devel
 
 Automatizar la creación de entornos virtuales con `venv` es una excelente práctica para agilizar tus flujos de trabajo en Python. 
 
-revisa el archivo: [scripts/enviroment_create.py](https://github.com/erwindevdesign/pip/blob/develop/scripts/enviroment_create.py)
+:eyes: revisa el archivo: <a href="https://github.com/erwindevdesign/pip/blob/develop/scripts/enviroment_create.py" target="_blank" rel="noopener noreferrer">enviroment_create.py</a>
 
 <br>
 <br>
@@ -498,8 +505,8 @@ revisa el archivo: [scripts/enviroment_create.py](https://github.com/erwindevdes
 
 </div>
 
-<div align="center" max-width="70vw" >
-
-  
-
+<div align='center'>
+  <a href="https://www.linkedin.com/in/erwindeveloper/" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/05pckYQ.png" title="LinkedIn" /></a>
+  <a href="https://www.tiktok.com/@erwindevdesign" target="_blank" rel="noopener noreferrer"><img style="margin-inline:10px" src="https://i.imgur.com/ziLmhGy.png" title="TikTok" /></a>
+  <a href="https://www.instagram.com/erwindevdesign/" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/riwyB8b.png" title="Instagram" /></a> 
 </div>
