@@ -267,6 +267,8 @@ Un entorno virtual en Python es un directorio aislado que contiene una instalaci
 
 *En **resumen**, los entornos virtuales son una herramienta esencial para cualquier desarrollador* **`Python`** *que trabaje en múltiples proyectos o que necesite garantizar la reproducibilidad y consistencia de sus aplicaciones.*
 
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
+
 <a name="create-virtual-environment"></a>
 <br>
 <div align="center">
@@ -331,6 +333,8 @@ Por ejemplo, para instalar `requests`
 ~~~sh
 pip install requests
 ~~~
+
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
 <a name="package-management"></a>
 <br>
@@ -413,6 +417,7 @@ Para revisar el archivo `requirements.txt` con las nuevas versiones instaladas.
 cat requirements.txt
 ~~~
 
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
 <a name="best-practices"></a>
 <br>
@@ -494,6 +499,19 @@ Automatizar la creación de entornos virtuales con `venv` es una excelente prác
 
 :eyes: revisa el archivo: <a href="https://github.com/erwindevdesign/pip/blob/develop/scripts/enviroment_create.py" target="_blank" rel="noopener noreferrer">enviroment_create.py</a>
 
+### Licencia 
+
+Distribuido bajo la licencia `MIT`
+
+Consulte [`LICENSE`](LICENSE) para  más información.
+
+
+
+
+
+
+
+
 <br>
 <br>
 
@@ -507,6 +525,6 @@ Automatizar la creación de entornos virtuales con `venv` es una excelente prác
 
 <div align='center'>
   <a href="https://www.linkedin.com/in/erwindeveloper/" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/05pckYQ.png" title="LinkedIn" /></a>
-  <a href="https://www.tiktok.com/@erwindevdesign" target="_blank" rel="noopener noreferrer"><img style="margin-inline:10px" src="https://i.imgur.com/ziLmhGy.png" title="TikTok" /></a>
+  <a href="https://www.tiktok.com/@erwindevdesign" target="_blank" rel="noopener noreferrer"><img style="margin-inline:20px" src="https://i.imgur.com/ziLmhGy.png" title="TikTok" /></a>
   <a href="https://www.instagram.com/erwindevdesign/" target="_blank" rel="noopener noreferrer"><img src="https://i.imgur.com/riwyB8b.png" title="Instagram" /></a> 
 </div>

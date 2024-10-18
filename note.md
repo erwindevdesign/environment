@@ -52,9 +52,13 @@ Para hacer uso referencial de la construcción de un entrono virtual, se reestru
     1. Se incluye un indice 
     2. se modifica el texto introductorio
     3. se reestructura la documentación basandoce en la estructura del indice previamente elaborado.
-    4. 
+    4. se 
 2. Recursos adicionales
     1. iconos y animaciones 
+        - emojis
+            - :eyes:
+            - 📋
+            - 
 
 
 
