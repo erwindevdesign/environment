@@ -28,15 +28,15 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
 <br>
 <details>
   <summary><b>Contenido 📋</b></summary>
-    <ol style=" list-style-type:none">
+    <ul style=" list-style-type:none">
       <li >
         <a href="#introduction" >
           Introducción
         </a>
-          <ol style=" list-style-type:none">
+          <ul style=" list-style-type:none">
             <li>
               <a href="#what-is" >
-                ~ ¿Qué es un entorno virtual y su importancia en el desarrollo?
+                ~ ¿Qué es un entorno virtual y su importancia en el desarrullo?
               </a>
             </li>
             <li>
@@ -44,13 +44,13 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ ¿Por qué utilizar entornos virtuales?
               </a>
             </li>
-          </ol>
+          </ul>
       </li>
       <li > 
         <a href="#create-virtual-environment">
           Creación de Entorno Virtual
         </a>
-          <ol style=" list-style-type:none">
+          <ul style=" list-style-type:none">
             <li>
               <a href="#new-virtual-environment" >
                 ~ Crea un nuevo entorno con venv.
@@ -66,13 +66,13 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ Instalación de paquetes con pip.
               </a>
             </li>
-          </ol>
+          </ul>
       </li>
       <li>
         <a href="#package-management" >
           Gestión de Paquetes.
         </a>
-          <ol style=" list-style-type:none">
+          <ul style=" list-style-type:none">
             <li>
               <a href="#new-file" >
                 ~ Creación de un archivo requirements.txt.
@@ -98,13 +98,13 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ Congela las versiones de paquetes.
               </a>
             </li>        
-          </ol>        
+          </ul>        
       </li>
       <li>
         <a href="#best-practices">
           Mejores prácticas
         </a>
-          <ol style=" list-style-type:none" >
+          <ul style=" list-style-type:none" >
             <li>
               <a href="#name-structure">
                 ~ Nombre para tu entorno virtual.
@@ -125,25 +125,25 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ Automatización de la creación de entornos con scripts.
               </a>
             </li> 
-          </ol>        
+          </ul>        
       </li>
       <!-- <li>
         <a href="#" >
           Ⅴ. Ejemplos Prácticos
         </a>
-          <ol style=" list-style-type:none">
+          <ul style=" list-style-type:none">
             <li>Creación de entornos para diferentes proyectos (Django, Flask, Machine Learning).</li>
-            <li>Resolución de problemas comunes.</li>
-          </ol>
+            <li>Resulución de problemas comunes.</li>
+          </ul>
       </li>
       <li>
         <a href="#" >
           Ⅵ. Herramientas Adicionales
         </a>
-          <ol style=" list-style-type:none">
+          <ul style=" list-style-type:none">
             <li>Integración con IDEs (Visual Studio Code, PyCharm).</li>
             <li>Uso de Docker para la contenerización de entornos.</li>
-          </ol>
+          </ul>
       </li> -->
       <li>
         <a href="#license" >
@@ -155,7 +155,7 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
           Contribuyendo al proyecto
         </a>
       </li>
-    </ol>
+    </ul>
 </details>
 <br>
 
