@@ -26,9 +26,9 @@ El desarrollo de aplicaciones en lenguaje de programación Python, usualmente ha
 Este repositorio es una referencia para desarrolladores que desean comprender y dominar la creación y gestión de entornos virtuales. A través de ejemplos prácticos y explicaciones detalladas, exploraremos los conceptos fundamentales de los entornos virtuales, su importancia en el desarrollo de proyectos Python y las mejores prácticas para su uso.
 
 <br>
-<details  style="list-style: none;" >
+<details>
   <summary><b>Contenido 📋</b></summary>
-    <ul style=" list-style-type:none">
+    <ul style=" list-style:none">
       <li >
         <a href="#introduction" >
           Introducción
