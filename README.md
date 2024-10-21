@@ -28,12 +28,12 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
 <br>
 <details>
   <summary><b>Contenido 📋</b></summary>
-    <ul style=" list-style-type:none">
+    <ol style=" list-style-type:none">
       <li >
         <a href="#introduction" >
           Introducción
         </a>
-          <ul style=" list-style-type:none">
+          <ol style=" list-style-type:none">
             <li>
               <a href="#what-is" >
                 ~ ¿Qué es un entorno virtual y su importancia en el desarrollo?
@@ -44,13 +44,13 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ ¿Por qué utilizar entornos virtuales?
               </a>
             </li>
-          </ul>
+          </ol>
       </li>
       <li > 
         <a href="#create-virtual-environment">
           Creación de Entorno Virtual
         </a>
-          <ul style=" list-style-type:none">
+          <ol style=" list-style-type:none">
             <li>
               <a href="#new-virtual-environment" >
                 ~ Crea un nuevo entorno con venv.
@@ -66,13 +66,13 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ Instalación de paquetes con pip.
               </a>
             </li>
-          </ul>
+          </ol>
       </li>
       <li>
         <a href="#package-management" >
           Gestión de Paquetes.
         </a>
-          <ul style=" list-style-type:none">
+          <ol style=" list-style-type:none">
             <li>
               <a href="#new-file" >
                 ~ Creación de un archivo requirements.txt.
@@ -98,13 +98,13 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ Congela las versiones de paquetes.
               </a>
             </li>        
-          </ul>        
+          </ol>        
       </li>
       <li>
         <a href="#best-practices">
           Mejores prácticas
         </a>
-          <ul style=" list-style-type:none" >
+          <ol style=" list-style-type:none" >
             <li>
               <a href="#name-structure">
                 ~ Nombre para tu entorno virtual.
@@ -125,7 +125,7 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ Automatización de la creación de entornos con scripts.
               </a>
             </li> 
-          </ul>        
+          </ol>        
       </li>
       <!-- <li>
         <a href="#" >
@@ -155,7 +155,7 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
           Contribuyendo al proyecto
         </a>
       </li>
-    </ul>
+    </ol>
 </details>
 <br>
 
