@@ -105,7 +105,7 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
           Mejores prácticas
         </a>
           <ul style=" list-style-type:none" >
-          <li>
+            <li>
               <a href="#name-structure">
                 ~ Nombre para tu entorno virtual.
               </a>
@@ -125,7 +125,7 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
                 ~ Automatización de la creación de entornos con scripts.
               </a>
             </li> 
-          </ol>        
+          </ul>        
       </li>
       <!-- <li>
         <a href="#" >
@@ -145,9 +145,21 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
             <li>Uso de Docker para la contenerización de entornos.</li>
           </ol>
       </li> -->
+      <li>
+        <a href="#license" >
+          Licencia
+        </a>
+      </li>
+      <li>
+        <a href="#contributing" >
+          Contribuyendo al proyecto
+        </a>
+      </li>
     </ul>
 </details>
 <br>
+
+Contribuyendo al Proyecto
 
 <a name="what-is"></a>
 <br>
@@ -499,18 +511,43 @@ Automatizar la creación de entornos virtuales con `venv` es una excelente prác
 
 :eyes: revisa el archivo: <a href="https://github.com/erwindevdesign/pip/blob/develop/scripts/enviroment_create.py" target="_blank" rel="noopener noreferrer">enviroment_create.py</a>
 
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
+
+<a name="license"></a>
+
 ### Licencia 
 
 Distribuido bajo la licencia `MIT`
 
 Consulte [`LICENSE`](LICENSE) para  más información.
 
+<a name="contributing"></a>
 
+### Contribuyendo al proyecto
 
+¡Gracias por tu interés en contribuir a este proyecto! Tu ayuda es muy valorada.
 
+* Cómo contribuir
 
+  * **Forkea el repositorio:** Crea una copia de este repositorio en tu cuenta de GitHub.
+  * **Crea una rama:** Basada en la rama `develop` (o la rama principal que estés utilizando), crea una nueva rama para tu contribución.
+  * **Realiza tus cambios:** Edita los archivos y realiza los cambios necesarios.
+  * **Commitea tus cambios:** Guarda tus cambios con mensajes claros y concisos.
+  * **Envía un Pull Request:** Envía una solicitud de fusión a este repositorio, describiendo claramente los cambios que has realizado y por qué son necesarios.
 
+<!-- * Guía de Estilo
 
+  * **Sigue nuestro estilo de codificación:** [Enlace a la guía de estilo, si existe]
+  * **Escribe código claro y conciso:** Utiliza nombres de variables y funciones descriptivos.
+  * **Incluye pruebas:** Asegúrate de que tus cambios estén cubiertos por pruebas unitarias. -->
+
+* Informando de errores
+
+  Si encuentras algún error o tienes alguna sugerencia, por favor, abre un nuevo issue describiendo el problema de forma clara y concisa.
+
+* Creando una nueva feature
+
+  Si deseas agregar una nueva funcionalidad, por favor, abre un issue primero para discutir la propuesta con el equipo. 
 
 <br>
 <br>
@@ -519,7 +556,7 @@ Consulte [`LICENSE`](LICENSE) para  más información.
 
   <img src="https://drive.google.com/uc?export=view&id=1wBpfw_H6qm9VIMz1Uu50-LUbpypqTMO4">
 
-  [@erwindevdesign](https://www.google.com/search?channel=fs&client=ubuntu-sn&q=%40erwindevdesign)
+  [@erwindevdesign](https://linktr.ee/erwindevdesign)
 
 </div>
 
