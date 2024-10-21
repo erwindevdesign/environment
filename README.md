@@ -28,14 +28,14 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
 <br>
 <details>
   <summary><b>Contenido 📋</b></summary>
-    <ul style="list-style: none;">
-      <li style="list-style: none;">
-        <a href="#introduction" >
+    <ul>
+      <li>
+        <a href="#introduction" style="list-style: none;">
           Introducción
         </a>
           <ul style=" list-style-type:none">
             <li>
-              <a href="#what-is" >
+              <a href="#what-is" style="list-style: none;">
                 ~ ¿Qué es un entorno virtual y su importancia en el desarrullo?
               </a>
             </li>
