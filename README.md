@@ -29,7 +29,7 @@ Este repositorio es una referencia para desarrolladores que desean comprender y 
 <details>
   <summary><b>Contenido 📋</b></summary>
     <ul style="list-style: none;">
-      <li >
+      <li style="list-style: none;">
         <a href="#introduction" >
           Introducción
         </a>
