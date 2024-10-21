@@ -62,3 +62,13 @@ videos/
 # Temporary files
 *.tmp
 *~
+
+
+button/
+charts/
+flask/
+main.py
+note.md
+python/
+python2/
+web-server/
